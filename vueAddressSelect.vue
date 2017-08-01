@@ -153,8 +153,8 @@ export default {
     .addressSelect{width: 100%; position: relative; background: #fff; height: 140px;overflow: hidden; -webkit-mask-box-image: linear-gradient(0deg,transparent,transparent 5%,#fff 20%,#fff 80%,transparent 95%,transparent);}
     .addressSelect ul{width: 33.333333%; position: absolute; left: 0; top:30px; -webkit-transform-style: preserve-3d; -webkit-backface-visibility:hidden; text-align: center; padding-left: 0;}
     .addressSelect ul li{white-space : nowrap;overflow: hidden; text-overflow:ellipsis; color:rgba(0,0,0,.54); padding: 3px 0;}
-    .addressSelect ul:nth-of-type(2){left: 30%;}
-    .addressSelect ul:nth-of-type(3){left: 60%;}
+    .addressSelect ul:nth-of-type(2){left: 33.333333%;}
+    .addressSelect ul:nth-of-type(3){left: 66.666666%;}
     .addressSelect ul li.addSelectActive{color:rgba(0,0,0,.87); transform: scale(1.3); transition: 0.5s;}
     .selectAni{transition: 0.8s;}
     
